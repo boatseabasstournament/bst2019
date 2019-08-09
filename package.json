@@ -1,0 +1,17 @@
+{
+  "name": "bst2019",
+  "version": "1.0.0",
+  "description": "BST website",
+  "main": "./assets/javascripts/index.js",
+  "scripts": {
+    "develop": "webpack --config ./webpack.config.js --watch -d --progress --colors",
+    "build": "webpack --config ./webpack.config.js --bail -p",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "ketabawo",
+  "license": "MIT",
+  "devDependencies": {
+    "webpack": "^4.39.1",
+    "webpack-cli": "^3.3.6"
+  }
+}
